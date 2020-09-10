@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/rkp",
+    "description": "TencentCloudApi php sdk rkp",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/rkp",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/rkp",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "VERSION"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
